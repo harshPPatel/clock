@@ -1,40 +1,45 @@
-
 :root {
-  --dark-color: #2E2E2E;
-  --primary-color: #0ABDE3;
+   --dark-color: #2E2E2E;
+   --primary-color: #0ABDE3;
 }
 
 body {
-  background-color: $primary-color;
-  color: $white-color;
-  font-family: $base-font;
-  letter-spacing: 3px;
-  position: relative;
-  height: 100vh;
-  display: flex;
-  justify-content: space-between;
-  flex-direction: column;
-  cursor: default;
-  a:link,
-  a:visited {
-     color: $white-color;
-     opacity: 1;
-     transition: all 0.2s ease;
-  }
-  a:hover,
-  a:active {
-     opacity: 0.5;
-  }
-  @media (max-width: 520px) {
-     font-size: 14px;
-     header {
-        order: 3;
-     }
-     main {
-        order : 2;
-     }
-     footer {
-        order: 1;
-     }
-  }
+   background-color: $primary-color;
+   color: $white-color;
+   font-family: $base-font;
+   letter-spacing: 3px;
+   position: relative;
+   height: 100vh;
+   display: flex;
+   justify-content: space-between;
+   flex-direction: column;
+   cursor: default;
+
+   a:link,
+   a:visited {
+      color: $white-color;
+      opacity: 1;
+      transition: all 0.2s ease;
+   }
+
+   a:hover,
+   a:active {
+      opacity: 0.5;
+   }
+
+   @media (max-width: 520px) {
+      font-size: 14px;
+
+      header {
+         order: 3;
+      }
+
+      main {
+         order: 2;
+      }
+
+      footer {
+         order: 1;
+      }
+   }
 }

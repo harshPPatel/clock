@@ -20,7 +20,7 @@ nav {
          margin-right: 1.5rem;
          order: 2;
       }
-      
+
       @media (max-height: 475px) {
          flex-direction: row;
       }
@@ -53,6 +53,7 @@ nav {
       &.active {
          position: relative;
          opacity: 1;
+
          &::before {
             height: 100%;
             width: 2px;
@@ -62,10 +63,12 @@ nav {
             position: absolute;
             left: -12px;
             top: 0;
+
             @media (max-width: 520px) {
                left: initial;
                right: -12px;
             }
+
             @media (max-height: 475px) and (max-width: 520px) {
                right: initial;
                width: 100%;
