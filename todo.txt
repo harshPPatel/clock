@@ -1,5 +1,5 @@
 [x] Add Document comments
-[ ] Add Favicon
+[x] Add Favicon
 [x] Update code pen with document comments
 [ ] Create code project in notion
 [ ] Add Codepen link in Notion (Index page and README.md)
