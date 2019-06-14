@@ -1,5 +1,6 @@
-[ ] Add Document comments
+[x] Add Document comments
 [ ] Add Favicon
-[ ] Update code pen with document comments
+[x] Update code pen with document comments
 [ ] Create code project in notion
 [ ] Add Codepen link in Notion (Index page and README.md)
+[ ] Update footer with Go to Github with github repo in both local project and Codepen

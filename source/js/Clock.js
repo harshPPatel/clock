@@ -182,11 +182,27 @@ class Clock {
   }
 
   /**
-   * Initializes the Clock Class and adds event listeners to all nav links
+   * Sets Page's body's background color according to the time. It changes its color to dark in night time else with the primary color.
+   *
+   * @memberof Time
+   */
+  setBackgroundColor() {
+    if (this._today.getHours() > 20 || this._today.getHours() < 6) {
+      document.body.style.backgroundColor = 'var(--dark-color)';
+    } else {
+      document.body.style.backgroundColor = 'var(--primary-color)';
+    }
+  }
+
+  /**
+   * Initializes the Clock Class and adds event listeners to all nav links and sets background image
    *
    * @memberof Clock
    */
   init() {
+    // Setting Background Color
+    this.setBackgroundColor();
+
     // Adding event listeners
     this.addEventListeners();
   }

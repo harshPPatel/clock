@@ -72,28 +72,12 @@ class Time {
   }
 
   /**
-   * Sets Page's body's background color according to the time. It changes its color to dark in night time else with the primary color.
-   *
-   * @memberof Time
-   */
-  setBackgroundColor() {
-    if (this._hours > 20 && this._hours < 6) {
-      document.body.style.backgroundColor = 'var(--dark-color)';
-    } else {
-      document.body.style.backgroundColor = 'var(--primary-color)';
-    }
-  }
-
-  /**
-   * Rerurns time in string format with the zone wrapped in 'span' tag and sets bodt's background color.
+   * Rerurns time in string format with the zone wrapped in 'span' tag
    *
    * @returns Time in string format
    * @memberof Time
    */
   getTime() {
-    // Setting page's background color
-    this.setBackgroundColor();
-
     // Returning the string formatted time.
     return this.getHours() + ':' + this.getMinutes() + ':' + this.getSeconds() + '<span>' + this._period + '</span>';
   }
