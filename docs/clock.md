@@ -3,24 +3,20 @@
 This class represents the Clock in the app. This class manages the click events of navigation items, showing value of selected unit.
 
 ### Variables
----
 - **TYPES (Object)** - contains selection types. (Example: Time, day, date etc)
 - **\_today -** contains current date for the app
 - **\_intervals** - saves intervals for the class
 
 ### Contructor
----
 Creates an instance of Clock and initializes the class level variables with values.
 
 **Example :**
-
 ```javascript
 // Example of using the function
 var clock = new Clock();
 ```
 
 ### `addActiveClass` function
----
 Adds active class to the selected nav items and removes the class from all other nav items.
 
 **Parameters :**
@@ -55,7 +51,6 @@ buttons.forEach(button => {
 ```
 
 ### `addEventListeners` function
----
 Adds event listeners to all nav links and adds on click function accoridng to its data-type value
 
 **Parameters :**
@@ -80,7 +75,6 @@ addEventListeners();
 **Special Note :** This function is limited to class. It can be used inside class only!
 
 ### `getTime` function
----
 Creates new Time object and returns the time in string format
 
 **Parameters :**
@@ -105,7 +99,6 @@ getTime();
 **Special Note :** This function is limited to class. It can be used inside class only!
 
 ### `getYear` function
----
 Returns the current full year
 
 **Parameters :**
@@ -130,7 +123,6 @@ getYear();
 **Special Note :** This function is limited to class. It can be used inside class only!
 
 ### `getMonth` function
----
 Returns current month's full name
 
 **Parameters :**
@@ -155,7 +147,6 @@ getMonth();
 **Special Note :** This function is limited to class. It can be used inside class only!
 
 ### `getDate` function
----
 Returns Current date in string format. It adds 0 to single digit values of date units.
 
 **Parameters :**
@@ -180,7 +171,6 @@ getDate();
 **Special Note :** This function is limited to class. It can be used inside class only!
 
 ### `getDay` function
----
 Returns current day's full name
 
 **Parameters :**
@@ -205,7 +195,6 @@ getDay();
 **Special Note :** This function is limited to class. It can be used inside class only!
 
 ### `setTime` function
----
 If isTrue is true, than it sets interval in displays time in target element, otherwise it clears the class intervals
 
 **Parameters :**
@@ -236,7 +225,6 @@ setTime(getTime, false);
 **Special Note :** This function is limited to class. It can be used inside class only!
 
 ### `setOutput` function
----
 Sets Output to the Target element
 
 **Parameters :**
@@ -269,7 +257,6 @@ setOutput("Monday", false);
 **Special Note :** This function is limited to class. It can be used inside class only!
 
 ### `setBackgroundColor` function
----
 Sets Page's body's background color according to the time. It changes its color to dark in night time else with the primary color.
 
 **Parameters :**
@@ -294,7 +281,6 @@ setBackgroundColor();
 **Special Note :** This function is limited to class. It can be used inside class only!
 
 ### `init` function
----
 Initializes the Clock Class and adds event listeners to all nav links and sets background image
 
 **Parameters :**
