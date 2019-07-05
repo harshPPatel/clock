@@ -1,12 +1,8 @@
 # Clock
 
----
-
 A **clock** app created on JavaScript ES6 features. It shows different units of the time. App changes the background to dark color according to the time (between 8 PM to 6 AM). App takes time zone from the device time zone and displays different time units.
 
 ## Getting Started
-
----
 
 To get started with this app, clone or download the repository from GitHub. This app uses node and gulp for managing tasks. So before starting to redeveloping this app, install these dependencies.
 
