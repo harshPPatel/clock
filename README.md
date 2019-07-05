@@ -34,8 +34,6 @@ First, open the terminal / Command Prompt and navigate to this project folder an
 
 ### Deployment
 
----
-
 **Step 1 :** Once the development process is done, run Gulp **build** command to make an optimized copy of the app. This will optimize all of your assets as well as code. It will compress the images, minify HTML, CSS, JS files. It also adds auto-prefix to the CSS files. The app also uses **babel** in this step to compile ES6 code into vanilla JavaScript so that code can be understood by older browsers.
 
     gulp build
@@ -43,8 +41,6 @@ First, open the terminal / Command Prompt and navigate to this project folder an
 **Step 2** : Upload these build files to your server.
 
 ## Built With
-
----
 
 The following Framework/Technologies are used in this project's development.
 
@@ -55,8 +51,6 @@ The following Framework/Technologies are used in this project's development.
 - SCSS (To create CSS of the project) - [https://sass-lang.com/](https://sass-lang.com/)
 
 ## Vendors
-
----
 
 This is the list of third party packages used in the development process.
 
@@ -73,8 +67,6 @@ This is the list of third party packages used in the development process.
 - node-sass - [https://www.npmjs.com/package/node-sass](https://www.npmjs.com/package/node-sass)
 
 ### Read More About this project
-
----
 
 - Folder Structure - _Link to Folder structure md file_
 - JavaScript Functions - _Link to javaScript functions md file_
