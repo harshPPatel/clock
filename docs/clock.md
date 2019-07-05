@@ -7,7 +7,7 @@ This class represents the Clock in the app. This class manages the click events 
 - **\_today -** contains current date for the app
 - **\_intervals** - saves intervals for the class
 
-### Contructor
+## Contructor
 Creates an instance of Clock and initializes the class level variables with values.
 
 **Example :**
