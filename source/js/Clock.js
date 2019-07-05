@@ -1,12 +1,12 @@
 /**
- * Represents a Clock
+ * This class represents the Clock in the app. This class manages the click events of navigation items, showing value of selected unit.
  *
  * @class Clock
  */
 class Clock {
 
   /**
-   * Creates an instance of Clock.
+   * Creates an instance of Clock and initializes the class level variables with values.
    * @memberof Clock
    */
   constructor() {
@@ -28,7 +28,7 @@ class Clock {
   }
 
   /**
-   * Adds active class to the nav links
+   * Adds active class to the selected nav items and removes the class from all other nav items.
    *
    * @param {*} e Event of the clicked link
    * @param {*} buttons array of all buttons
@@ -93,7 +93,7 @@ class Clock {
   }
 
   /**
-   * Reuturns current month's full name
+   * Returns current month's full name
    *
    * @returns Current Month Name
    * @memberof Clock
@@ -107,7 +107,7 @@ class Clock {
   }
 
   /**
-   * Retunrs Current date in string format
+   * Returns Current date in string format. It adds 0 to single digit values of date units.
    *
    * @returns Current Date
    * @memberof Clock
@@ -129,7 +129,7 @@ class Clock {
   }
 
   /**
-   * Returns current day's name
+   * Returns current day's full name
    *
    * @returns Name of the Current Day
    * @memberof Clock

@@ -65,7 +65,7 @@ This is the list of third party packages used in the development process.
 ### Read More About this project
 
 - Folder Structure - _Link to Folder structure md file_
-- JavaScript Functions - _Link to javaScript functions md file_
+- [Clock Class](clock.md)
 - Gulp Functions - _Link to Gulp functions md file_
 
 **Author** : [Harsh P Patel](https://github.com/harshPPatel)
