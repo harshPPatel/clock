@@ -40,7 +40,7 @@ First, open the terminal / Command Prompt and navigate to this project folder an
 
 The following Framework/Technologies are used in this project's development.
 
-- Node - [https://nodejs.org/en/](https://nodejs.org/en/){:target="_blank" rel="noopener"}
+- Node - [https://nodejs.org/en/](https://nodejs.org/en/)
 - Gulp (Task Manager) - [https://gulpjs.com/](https://gulpjs.com/)
 - Browser Sync (To create development server) - [https://www.browsersync.io/](https://www.browsersync.io/)
 - Babel (To compile ES6 JS code) - [https://babeljs.io/](https://babeljs.io/)
